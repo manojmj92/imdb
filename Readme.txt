@@ -11,7 +11,8 @@ All the extra information in the file/folder name like DVDrip,aXXo etc are remov
 Select a movie folder,right click and select sendto -> IMDB.cmd
 Incase a match is found in IMdB database, the default browser opens up with the IMDB page of the movie.
 
-a How-to video can be found here : 
+a How-to video can be found here : http://youtu.be/JANNcimQGyk
+
 
 
 
