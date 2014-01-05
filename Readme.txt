@@ -1,15 +1,27 @@
 Python script to automatically open up imdb link of the movie whose folder/file is given as
 parameter to the python script via "Send-to" in Windows.
 
-Usage:
+Does NOT work with Python 3.x
 
-Copy the IMDB.cmd file to your sendto folder in Windows (can be accessed by typing shell:sendto in addressbar)
-Edit the content of the .cmd file and provide the location where your imdb-lookup.py file resides.
+Usage (imdb-lookup.py):
+
+Copy imdb-lookup.py file to C:\
+Copy the IMDB-lookup.cmd file to your sendto folder in Windows (can be accessed by typing shell:sendto in addressbar)
+Right click on a movie folder(of a single movie) and click Sendto->IMDB-lookup.py
+
+Your default browser opens up with IMDB page of the movie.
+
+Usage (imdb-folder.py):
+
+Copy imdb-folder.py file to C:\
+Copy the IMDB-folder.cmd file to your sendto folder in Windows (can be accessed by typing shell:sendto in addressbar)
+Right click on a movies folder(consisting of multiple movie folders inside of it) and click SendTo->IMDB-folder.py
+
+Voila! Excel spreadsheet opens up with all details fetched from Imdb like genre,rating,actors,awards etc
+
 
 All the extra information in the file/folder name like DVDrip,aXXo etc are removed in the script so as to search the database.
 
-Select a movie folder,right click and select sendto -> IMDB.cmd
-Incase a match is found in IMdB database, the default browser opens up with the IMDB page of the movie.
 
 More explanation can be found here:http://qr.ae/GxOcx
 a How-to video can be found here : http://youtu.be/JANNcimQGyk
