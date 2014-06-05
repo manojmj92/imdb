@@ -3,7 +3,7 @@ IFS_BAK=$IFS
 IFS="
 "
 
-     full_path="/home/"$USER"/Desktop/"imdb_folder.py
+     full_path="/home/"$USER"/Desktop/"imdb-folder.py
      folder= $NAUTILUS_SCRIPT_SELECTED_FILE_PATHS
         
         python $full_path $folder
