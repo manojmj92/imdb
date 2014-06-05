@@ -22,6 +22,10 @@ Voila! Excel spreadsheet opens up with all details fetched from Imdb like genre,
 
 All the extra information in the file/folder name like DVDrip,aXXo etc are removed in the script so as to search the database.
 
+For Ubuntu :
+Place open_in_browser.sh and send_folde.sh in ~/.gnome2/nautilus-scripts. U can see them in Scripts -> when u right click.
+Place imdb-lookup and imdb-folder.py on desktop.
+
 
 More explanation can be found here:http://qr.ae/GxOcx
 a How-to video can be found here : http://youtu.be/JANNcimQGyk
