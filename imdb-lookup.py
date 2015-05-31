@@ -42,8 +42,7 @@ def finder(name):
     for value in replace:
         name = name.replace(value," ")
 
-    name=name.lstrip()
-    name=name.rstrip()
+    name = name.strip();
 
     if year!=0:
         url = "http://www.omdbapi.com/?t="+name+"&y="+str(year)
