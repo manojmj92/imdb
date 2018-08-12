@@ -42,7 +42,7 @@ def getMovieFromDir():
     #movieList.remove("imdb-rating-folder-Python3.py")
     return  movieList
 
-print(getMovieFromDir())
+#print(getMovieFromDir())
 
 def cleanMovieNames():
     OriginalMovieList = getMovieFromDir()
@@ -58,7 +58,7 @@ def cleanMovieNames():
         cleanMovieList.append(movieName)
     return cleanMovieList
 
-print(cleanMovieNames())
+#print(cleanMovieNames())
 
 def fetchRatingsFromAPI():
     cleanedMovieList = cleanMovieNames()
@@ -75,7 +75,7 @@ def fetchRatingsFromAPI():
         imdbRatingsList.append(imdbRate)
     return imdbRatingsList
 
-print(fetchRatingsFromAPI())
+#print(fetchRatingsFromAPI())
 
 def renameFilesOnDisk():
     i = -1
