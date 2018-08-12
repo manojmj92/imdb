@@ -38,7 +38,7 @@ filePath = os.getcwd()
 
 def getMovieFromDir():
     movieList = os.listdir(filePath)
-    movieList.remove("imdb-Rating-folder.cmd")
+    movieList.remove("imdb-rating-folder-Python3.cmd")
     #movieList.remove("imdb-rating-folder.py")
     return  movieList
 
