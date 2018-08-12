@@ -1,8 +1,10 @@
 Python script to automatically open up imdb link of the movie whose folder/file is given as
 parameter to the python script via "Send-to" in Windows.
 
-If you're using Python 3.x.x as default pyhton(check by typing python in windows command prompt), then replace IMDB-lookup.py with IMDB-lookup-Python3.py in below instructions.
-If you're using Python 3.x.x as default pyhton(check by typing python in windows command prompt), then go same as below instructions.
+If you're using Python 3.x.x as default pyhton(check version by typing python in windows command prompt), then replace IMDB-lookup.py with IMDB-lookup-Python3.py in below instructions.
+If you're using Python2.x then go same as below instructions.
+
+Note: If you want to use Python3.x also with Python 2.7. Just install the python 3.x in a different directory than Python2 and set the path in environment variables.
 
 Usage (imdb-lookup.py):
 
