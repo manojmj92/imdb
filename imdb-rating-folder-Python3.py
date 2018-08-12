@@ -1,3 +1,11 @@
+#-------------------------------------------------------------------------------
+# Name:        imdb-rating-folder-Python3
+# Purpose:
+# Author:      vichitrak
+# Created:
+# Copyright:   
+# Licence:
+#-------------------------------------------------------------------------------
 import urllib.request as ur
 import json
 import webbrowser
