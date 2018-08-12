@@ -7,12 +7,12 @@ import sys
 #list of words, we need to remove to get the clean movie name to search in movie database
 def finder(name):
     replace = ["E SuB xRG",".avi","1.4","5.1","-","DVDRip","BRRip","XviD","1CDRip","aXXo","[","]","(",")","{","}","{{","}}",
-    "x264","720p","DvDScr","MP3","HDRip","WebRip","ETRG","YIFY","StyLishSaLH","StyLish Release","TrippleAudio",
-    "EngHindiIndonesian","385MB","CooL GuY","a2zRG","x264","Hindi","AAC","AC3","MP3"," R6","HDRip","H264","ESub",
+    		"x264","720p","DvDScr","MP3","HDRip","WebRip","ETRG","YIFY","StyLishSaLH","StyLish Release","TrippleAudio",
+    		"EngHindiIndonesian","385MB","CooL GuY","a2zRG","x264","Hindi","AAC","AC3","MP3"," R6","HDRip","H264","ESub",
 		"AQOS","ALLiANCE","UNRATED","ExtraTorrentRG","BrRip","mkv","mpg","DiAMOND","UsaBitcom","AMIABLE","BRRIP","XVID",
 		"AbSurdiTy","DvD","mp3","MPEG4","CRYS","DVDRiP","TASTE","BluRay","HR","COCAIN","_",".","BestDivX","MAXSPEED",
 		"mediafiremoviez","Eng","500MB","FXG","Ac3","Feel","Subs","S4A","BDRip","FTW","Xvid","Noir","1337x","ReVoTT",
-    "GlowGaze","mp4","Unrated","hdrip","ARCHiViST","TheWretched","www","torrentfive","1080p","201 080p","1080",
+    		"GlowGaze","mp4","Unrated","hdrip","ARCHiViST","TheWretched","www","torrentfive","1080p","201 080p","1080",
 		"WEB DL","JYK","SecretMyth","Kingdom","Release","RISES","DvDrip","eXceSs","ViP3R","RISES","BiDA","READNFO",
 		"lish","NimitMak","SilverRG","sujaidr","HELLRAZ0R","tots","BeStDivX","UsaBit","FASM","NeroZ","576p","LiMiTED",
 		"Series","ExtraTorrent","DVDRIP","~", "BRRiP","699MB","700MB","greenbud","B89","480p","AMX","007","DVDrip","h264",
@@ -30,8 +30,8 @@ def finder(name):
 		"XviD","MAXSPEED","www.torentz.3xforum.ro","iTALiAN","MD","Dual","TrTd", "TeaM","KiNGDOM","KumaR","UNCUT","BHATTI87","P2PDL",
 		"Antitrust","26K","Dias","Rus  Junoon","RARBG","PA","GreatMagician","4 G","ChattChitto","RG",
 		"BD  D","6ch","Tornster","Atlas47","480P","DUAL AUDIO","HINDI","PRINCEOFDHEMP","DD","EN","SCR","IMAX EDITION","COD","cam","1080P",
-    "AraGon","BD","6Chn Cody's","YTS.AG","KickASS","DUBBED","Mediafiremoviez.com","mediafiremoviez.com"
-    ]
+   		 "AraGon","BD","6Chn Cody's","YTS.AG","KickASS","DUBBED","Mediafiremoviez.com","mediafiremoviez.com"
+	      ]
     year=0
     for y in range(1900,2014):
         if str(y) in name:
